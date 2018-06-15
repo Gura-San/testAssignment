@@ -162,7 +162,8 @@ class Test extends Component {
         return (
             <div className="testContainer">
                 <div className="tableContainer">
-
+                                                        {/* Bootstrap form */}
+                                                        
                     <form className="form-horizontal" onSubmit={ event => { event.preventDefault(); this.filter(event) } }>
                         <div className="form-group">
                             <div className="col-sm-6">
